@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+body{
+  margin: auto;
+  width: 100%;
+  font-family: 'League Spartan', sans-serif;
+  background-image: url(/images/bg-pattern-top-desktop.svg) , url(/images/bg-pattern-bottom-desktop.svg);
+  background-position: top left , bottom right;
+  background-repeat: no-repeat , no-repeat;
+  overflow: hidden;}
+.hero{
+    display: flex;
+    gap: 100px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;}
+.right-1{
+    width: 450px;
+    background-color: hsl(300, 24%, 96%);
+    padding: 18px;
+    text-align: center;
+    border-radius: 8px;
+    display: flex;
+    gap: 35px;
+    color: hsl(300, 43%, 22%);
+    font-weight: 900;}
+.right-2{
+    width: 450px;
+    background-color: hsl(300, 24%, 96%);
+    padding: 18px;
+    margin-top: 35px;
+    text-align: center;
+    border-radius: 8px;
+    display: flex;
+    gap: 35px;
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    color: hsl(300, 43%, 22%);
+    font-weight: 900;}
+.right-3{
+    width: 450px;
+    background-color: hsl(300, 24%, 96%);
+    padding: 18px;
+    margin-top: 50px;
+    text-align: center;
+    border-radius: 8px;
+    display: flex;
+    gap: 40px;
+    position: absolute;
+    top: 80px;
+    left: 80px;
+    color: hsl(300, 43%, 22%);
+    font-weight: 900;}
+.icons{
+    margin-left: 15px;
+    display: flex;
+    gap: 10px;}
+.right{
+    position: relative;
+    margin-right: 90px;}
+.left h1{
+    font-weight: 900;
+    font-size: 55px;
+    color: hsl(300, 43%, 22%);
+    line-height: 50px;}
+.container{
+  margin-left: 180px;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  width: 70%;
+  gap: 60px;}
+.left p{
+    font-size: 18px;
+    font-weight: 300;
+    color: hsl(300, 43%, 22%);
+    margin-top: 20px;
+    line-height: 25px;}
+.left{
+    margin-top: 130px;}
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    position: relative;}
+.card{
+   background-color: hsl(300, 43%, 22%); 
+   height: 28vh;
+   width: 22vw;
+   border-radius: 6px;
+  padding: 30px;  
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  gap: 8px;}
+.person{
+    width: 40px;
+    border-radius: 50%;}
+.cards h4{
+    color: white;
+    margin-bottom: 5px;}
+.Verify{
+    color: hsl(333, 80%, 67%);
+    font-weight: lighter;
+    font-size: 15px;}
+.profil{
+    display: flex;
+    text-align: center;
+    gap: 10px;
+    align-items: center;
+    align-content: center;}
+.centre{
+    position: absolute;
+    top: 20px;
+    left: 365px;}
+.right1{
+    position: absolute;
+    top: 40px;
+    left: 730px;}
+.cards p{
+    line-height: 23px;
+    color: white;}
